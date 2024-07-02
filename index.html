@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/c96c39e9b1.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./imgs/fevicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Jubayer - Portfolio</title>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("NmTnnHgHVjFbxfs2u");
+        })();
+    </script>
+</head>
+
+<body class="font-blas">
+    <div class="social-link">
+        <a href="https://www.linkedin.com/in/Jubayer-K/">Linkedin</a>
+        <a href="https://github.com/Jubayer-K">GitHub</a>
+        <a href="https://www.facebook.com/jubayerK21/">FaceBook</a>
+        <a href="https://x.com/Jubayer_K">Twitter</a>
+    </div>
+    <div class="theme-switch">
+        <div class="dark"></div>
+        <div class="light"></div>
+    </div>
+    <div class="container" id="top">
+        <div class="top-section">
+            <header>
+                <div class="logo">
+                    <img src="./imgs/Logo2.png" alt="" class="my-logo" width="100px">
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#top">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#project">PROJECTS</a></li>
+                        <li><a href="#academic">ACADEMIC INFO</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-bar">
+                    <div class="menu"></div>
+                </div>
+            </header>
+            <main>
+                <div class="about-txt">
+                    <h1>HEY,</h1>
+                    <p>
+                        My name is <span>Jubayer Khan,</span></p>
+                    <p> I’m a MERN Stack Web Developer</p>
+                    <p>with a knack for crafting dynamic web solutions.
+                    </p>
+                </div>
+                <div class="flex flex-col lg:flex-col-reverse gap-6 items-center text-nowrap text-center">
+                    <div class="border border-gray-800 p-4 hover:bg-gray-800 hover:text-white rounded">
+                        <a href="resume/Jubaer ahmed khan CV.pdf" target="_blank" download>
+                            <p class="">Download Resume</p>
+                        </a>
+                    </div>
+                    <div class="about-img">
+                        <img src="./imgs/DP-profile.jpeg" alt="">
+                    </div>
+                </div>
+            </main>
+            <div class="scroll">
+                <a href="#about">
+                    <p>Scroll</p>
+                    <div class="bar"></div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <article class="about-container" id="about">
+        <div class="information flex flex-col justify-center w-full items-center gap-4">
+            <h1 class="text-base text-nowrap text-center border p-4 w-44">About Me</h1>
+            <p>Hello there! I'm Jubayer, a motivated and enthusiastic MERN stack developer eager to contribute to
+                innovative projects and collaborate with talented teams. With a solid foundation in JavaScript, React,
+                Node.js, Express.js, and MongoDB, I'm excited to apply my skills and continue learning in a dynamic
+                environment.</p>
+        </div>
+    </article>
+
+    <div class="my-skills">
+        <p>My Skills</p>
+        <div class="skill-list grid grid-cols-3">
+            <img src="imgs/HTML.png" alt="">
+            <img src="imgs/css.png" alt="">
+            <img src="imgs/JavaScript.png" alt="">
+            <img src="imgs/Bootsrap.png" alt="">
+            <img src="imgs/tailwind.png" alt="">
+            <img src="imgs/firebase.png" alt="">
+            <img src="imgs/react.png" alt="">
+            <img src="imgs/node.png" alt="">
+            <img src="imgs/mongo.png" alt="">
+            <img src="imgs/express.png" alt="">
+        </div>
+    </div>
+
+    <section class="project-container" id="project">
+        <div class="projects">
+            <h1>Projects</h1>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./imgs/First-project.png" alt="">
+                    <h1 class="hover:bg-gray-200">Project : Synapse Forum</h1>
+                    <div class="technology">
+                        <span>React</span>
+                        <span>Tailwind</span>
+                        <span>MerakiUi</span>
+                        <span>Firebase</span>
+                        <span>Mongodb</span>
+                        <span>JWT</span>
+                    </div>
+                    <p>This website allows forum administrators to manage users, oversee reported activities, and make
+                        important announcements seamlessly.
+                    </p>
+                    <div>
+                        <h1  class="text-sm">Features</h1>
+                        <p>#User Management:
+                            View, edit, and delete user accounts.
+                            Assign user roles and permissions.
+                        </p>
+                        <p>#Membership System with Stripe: secure payment processing,
+                            Manage subscriptions, membership tiers, and billing directly from the admin dashboard.
+                        </p>
+                        <p>#Analytics Dashboard
+                            Track key metrics such as active users, posts, and reports over time..</p>
+                    </div>
+
+                    <div class="project-btn">
+                        <a href="https://twelfth-assignment-forum.web.app/" target="_blank">Live View</a>
+                        <a href="https://github.com/Jubayer-K/Synapse-Forum-client" target="_blank">Client Code</a>
+                        <a href="https://github.com/Jubayer-K/Synapse-Forum-server" target="_blank">Server Code</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./imgs/second-project.png" alt="">
+                    <h1 class="hover:bg-gray-200">Project : Khan Blog</h1>
+                    <div class="technology">
+                        <span>React</span>
+                        <span>Tailwind</span>
+                        <span>DaisyUi</span>
+                        <span>Firebase</span>
+                        <span>Mongodb</span>
+                        <span>Express</span>
+                    </div>
+                    <p>This is a React-based website aimed at providing a seamless and interactive blogging experience.
+                        With a range of modern UI components and functionalities.
+                    </p>
+                    <div>
+                        <h1 class="text-sm">Features</h1>
+                        <p>#Rich UI Components: Leveraging packages like @mui/material, @heroicons/react, and
+                            framer-motion,
+                            Khan Blog offers visually appealing and interactive UI elements.
+                        </p>
+                        <p>#Efficient Data Management: Utilizing @tanstack/react-query and axios, Khan Blog ensures
+                            efficient
+                            data fetching and state management, providing a seamless browsing experience.
+                        </p>
+                        <p>#With features like react-intersection-observer for lazy loading and react-toastify for
+                            notifications, Khan Blog prioritizes user experience.</p>
+                    </div>
+                    <div class="project-btn">
+                        <a href="https://eleventh-assignment-khan-blog.web.app/" target="_blank">Live View</a>
+                        <a href="https://github.com/Jubayer-K/Khan-Blog-client" target="_blank">Client Code</a>
+                        <a href="https://github.com/Jubayer-K/Khan-Blog-server" target="_blank">Server Code</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./imgs/third-project.png" alt="">
+                    <h1 class="hover:bg-gray-200">Project : Khan Exhibit</h1>
+                    <div class="technology">
+                        <span>React</span>
+                        <span>Tailwind</span>
+                        <span>DaisyUi</span>
+                        <span>Firebase</span>
+                        <span>Mongodb</span>
+                        <span>Express</span>
+                    </div>
+                    <p>An online platform dedicated to showcasing the beauty and diversity of painting and drawing.
+                        Here, artists and enthusiasts alike can immerse themselves in a vibrant community centered
+                        around creativity and expression.</p>
+                    <div>
+                        <h1 class="text-sm">Features</h1>
+                        <p>#Inspiring Galleries: Explore stunning galleries featuring a wide range of paintings and
+                            drawings, from traditional to contemporary styles.
+                        </p>
+                        <p>#Artistic Resources: Access a wealth of artistic resources including tutorials, tips, and
+                            tools to support your creative journey.
+                        </p>
+                        <p>#react-intersection-observer for lazy loading and react-toastify for
+                            notifications.</p>
+                    </div>
+                    <div class="project-btn">
+                        <a href="https://tenth-assignment-khan-exhibit.web.app/" target="_blank">Live View</a>
+                        <a href="https://github.com/Jubayer-K/Khan-Exhibit-client" target="_blank">Client Code</a>
+                        <a href="https://github.com/Jubayer-K/Khan-Exhibit-server" target="_blank">Server Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="academic-container py-12 bg-gray-100" id="academic">
+        <div class="academic-info text-center">
+            <h1 class="text-3xl font-bold mb-8">Academic Info</h1>
+            <div class="academic-details space-y-8">
+                <div class="academic-item bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-xl font-semibold">Bachelor of Science in Computer Science</h2>
+                    <p class="text-gray-600">Uttara University(UU)</p>
+                    <p class="text-gray-600">Dhaka,Bangladesh</p>
+                    <p class="text-gray-600">2024 - Present</p>
+                    <p class="text-gray-600">Relevant Coursework: Data Structures, Algorithms, Web Development, Database
+                        Systems</p>
+                </div>
+                <div class="academic-item bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-xl font-semibold">Diploma in Textile Engineering</h2>
+                    <p class="text-gray-600">Institute of Textile Engineering and Information Technology (ITEIT)</p>
+                    <p class="text-gray-600">Gazipur,Dhaka,Bangladesh</p>
+                    <p class="text-gray-600">2018 - 2023</p>
+                    <p class="text-gray-600">Relevant Subjects: Wet Processing , Weaving,</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-container py-12 bg-gray-100" id="contact">
+        <div class="contact-info text-center">
+            <h1 class="text-3xl font-bold mb-8">Contact Me</h1>
+            <form id="contact-form" class="space-y-6 max-w-md mx-auto bg-white p-8 rounded-lg shadow-md">
+                <div class="form-group">
+                    <label for="name" class="block text-gray-700">Name</label>
+                    <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-lg" required>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-lg" required>
+                </div>
+                <div class="form-group">
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" name="message" class="w-full px-4 py-2 border rounded-lg" rows="5"
+                        required></textarea>
+                </div>
+                <button type="submit" class="w-full bg-gray-500 text-white py-2 rounded-lg hover:bg-gray-600">Send
+                    Message</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="my-tools">
+        <p>My Tools</p>
+        <div class="tools-list">
+            <i class="fab fa-windows"></i>
+            <div class="fa-vs-code"><img src="./imgs/visual-studio.png" alt="">
+                <h6>VS CODE</h6>
+            </div>
+            <i class="fab fa-github-square"></i>
+            <div class="fa-ps"><img src="./imgs/adobe-photoshop.png" alt="">
+                <h6>PHOTOSHOP</h6>
+            </div>
+            <div class="f-chrome"><img src="./imgs/icons8-chrome.png" alt="">
+                <h6>CHROME</h6>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            Copyright &copy; by Jubayer | Made With <i class="fas fa-heart"></i>.
+        </p>
+    </footer>
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+
+            emailjs.sendForm('service_e1e1d12', 'template_z8t886e', this)
+                .then(function (response) {
+                    alert('Message sent successfully!');
+                }, function (error) {
+                    alert('Failed to send the message. Please try again later.');
+                });
+        });
+    </script>
+</body>
+
+</html>
